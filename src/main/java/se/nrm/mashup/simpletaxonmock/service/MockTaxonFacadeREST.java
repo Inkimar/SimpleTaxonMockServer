@@ -28,7 +28,7 @@ import se.nrm.mashup.simpletaxonmock.MockTaxon;
 @Path("mocktaxon")
 public class MockTaxonFacadeREST extends AbstractFacade<MockTaxon> {
 
-    @PersistenceContext(unitName = "se.nrm.mashup_SimpleTaxonMock_war_1.0-SNAPSHOTPU")
+    @PersistenceContext(unitName = "SimpleTaxonMock")
     private EntityManager em;
 
     public MockTaxonFacadeREST() {
